@@ -1,0 +1,16 @@
+cat > .gitignore << 'EOF'
+venv/
+venv311/
+venv311_old/
+env/
+.venv/
+build/
+dist/
+__pycache__/
+*.pyc
+*.spec
+.DS_Store
+.env
+camera_test.jpg
+camera_debug.jpg
+EOF
